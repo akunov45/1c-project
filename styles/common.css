@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Tahoma';
+  src: local('Tahoma'), url(./fonts/Tahoma/tahoma.ttf) format('truetype');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.common-title {
+  color: #222;
+  font-family: Gilroy;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
